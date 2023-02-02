@@ -32,6 +32,7 @@ function App() {
 
   return (
     <div className="container">
+      <div className="logo">React Weather</div>
       <Search onSearchChange={handleOnSearchChange} />
       {currentWeather && <CurrentWeather data={currentWeather} />}
       {forecast && <Forecast data={forecast}/>}
